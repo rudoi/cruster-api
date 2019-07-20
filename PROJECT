@@ -1,0 +1,7 @@
+version: "2"
+domain: rudeboy.io
+repo: github.com/rudoi/cruster-api
+resources:
+- group: alpha
+  version: v1
+  kind: PizzaOrder

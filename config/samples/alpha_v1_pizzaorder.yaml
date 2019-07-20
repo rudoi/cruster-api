@@ -1,0 +1,7 @@
+apiVersion: alpha.rudeboy.io/v1
+kind: PizzaOrder
+metadata:
+  name: pizzaorder-sample
+spec:
+  # Add fields here
+  foo: bar
