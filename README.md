@@ -19,6 +19,6 @@ __Please use at your own risk. I have placed exactly ONE real order with this so
 
 - CardType (VISA/MASTERCARD/etc)
 - Number (the CC number)
-- Experiation (no slashes - ex. 0120 rather than 01/20)
+- Expiration (no slashes - ex. 0120 rather than 01/20)
 - SecurityCode (the CVV on the back of the card)
 - PostalCode (postal code of the billing address)
