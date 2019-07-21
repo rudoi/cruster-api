@@ -1,7 +1,27 @@
 apiVersion: alpha.rudeboy.io/v1
 kind: PizzaOrder
 metadata:
-  name: pizzaorder-sample
+  name: large-sausage-pineapple
 spec:
-  # Add fields here
-  foo: bar
+  placeOrder: true
+  customer:
+    firstName: Joe
+    lastName: Customer
+    email: HAHA
+  address:
+    street: NOT
+    city: TODAY
+    region: YOU
+    postalCode: SILLY
+    phone: HAXORS
+  pizzas:
+    - size: large
+      toppings:
+        - sausage
+        - pineapple
+    - size: large
+      toppings:
+        - mushroom
+        - spinach
+  paymentSecret:
+    name: payment-secret
