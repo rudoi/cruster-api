@@ -1,6 +1,14 @@
 # :pizza: cruster-api: order Domino's with Kubernetes
 
-This is a `kubebuilder`-generated Kubernetes API that knows how to order Domino's. See `config/samples/alpha_v1_pizzaorder.yaml` for a sample PizzaOrder. 
+This is a `kubebuilder`-generated Kubernetes API that knows how to order Domino's. See `config/samples/alpha_v1_pizzaorder.yaml` for a sample PizzaOrder.
+
+Track your pizzas with `kubectl`!
+
+```
+kubectl get pizzaorders
+NAME                      PRICE   PREP                        BAKE                        QUALITY CHECK               DELIVERED
+large-sausage-pineapple   19.07   2019-07-21T13:18:38-07:00   2019-07-21T13:20:01-07:00   2019-07-21T13:26:16-07:00   2019-07-21T13:42:11-07:00
+```
 
 Current limitations:
 
@@ -9,8 +17,7 @@ Current limitations:
 
 No releases have been cut, so clone this repo if you want to give it a shot. `make install && make run` should be enough to run locally!
 
-
-__Please use at your own risk. I have placed exactly ONE real order with this so far.__ :sweat_smile:
+**Please use at your own risk. I have placed exactly ONE real order with this so far.** :sweat_smile:
 
 ## notes on the PizzaOrder structure
 
