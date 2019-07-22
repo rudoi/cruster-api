@@ -5,10 +5,12 @@ This is a `kubebuilder`-generated Kubernetes API that knows how to order Domino'
 Track your pizzas with `kubectl`!
 
 ```
-kubectl get pizzaorders
+> kubectl get pizzaorders
 NAME                      PRICE   PREP                        BAKE                        QUALITY CHECK               DELIVERED
 large-sausage-pineapple   19.07   2019-07-21T13:18:38-07:00   2019-07-21T13:20:01-07:00   2019-07-21T13:26:16-07:00   2019-07-21T13:42:11-07:00
 ```
+
+The above order is :tada: [real](https://twitter.com/ndrewrudoi/status/1153056577508782082) :tada:.
 
 Current limitations:
 
