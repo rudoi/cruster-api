@@ -3,6 +3,7 @@
 This is a `kubebuilder`-generated Kubernetes API that knows how to order Domino's. See `config/samples/alpha_v1_pizzaorder.yaml` for a sample PizzaOrder. 
 
 Current limitations:
+
 - US only
 - Pizzas only (no pasta/wings/etc)
 
@@ -22,3 +23,12 @@ __Please use at your own risk. I have placed exactly ONE real order with this so
 - Expiration (no slashes - ex. 0120 rather than 01/20)
 - SecurityCode (the CVV on the back of the card)
 - PostalCode (postal code of the billing address)
+
+## Domino's SDK
+
+This controller uses [pizza-go](https://github.com/rudoi/pizza-go), which I whipped up as part of this weekend project. :pizza:
+
+## inspirations
+
+- [terraform-provider-dominos](https://github.com/ndmckinley/terraform-provider-dominos)
+- [node-dominos-pizza-api](https://github.com/RIAEvangelist/node-dominos-pizza-api)
