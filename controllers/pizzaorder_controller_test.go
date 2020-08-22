@@ -55,7 +55,7 @@ var _ = Describe("PizzaOrder reconciler", func() {
 					Phone:      "555-555-5555",
 				},
 				Pizzas: []*alphav1.Pizza{
-					&alphav1.Pizza{
+					{
 						Size:     "large",
 						Toppings: []string{"pepperoni"},
 					},
